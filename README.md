@@ -38,6 +38,7 @@ Most "JWT tutorial" code online either skips revocation entirely or hand-waves t
 ## License
 
 MIT — use it, fork it, adapt it to your own stack.
+| [`kubernetes-hpa-scaling-demo/`](./kubernetes-hpa-scaling-demo) | [Kubernetes HPA Not Scaling Down](https://devsaas.dev/blog/kubernetes-hpa-not-scaling-down) | Reproducing and fixing the scale-down stabilization window issue |
 
 ## More
 
