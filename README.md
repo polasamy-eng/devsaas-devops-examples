@@ -9,7 +9,8 @@ Each article on DevSaaS walks through *why* a problem happens and how to reason 
 | Folder | Article | What it demonstrates |
 |---|---|---|
 | [`jwt-revocation-redis/`](./jwt-revocation-redis) | [Revoke a JWT Before It Expires](https://devsaas.dev/blog/revoke-jwt-before-expiration) | Redis-backed token blacklist with automatic TTL cleanup |
-| [`refresh-token-reuse-detection/`](./refresh-token-reuse-detection) | [Detecting Refresh Token Reuse with Redis](https://devsaas.dev/blog/detect-refresh-token-reuse-redis) | Refresh token rotation + reuse detection using Redis token families |
+| [`refresh-token-reuse-detection/`](./refresh-token-reuse-detection) | [Detecting Refresh Token Reuse with Redis](https://devsaas.dev/blog/detect-refresh-token-reuse-redis) | Redis-backed token family rotation and reuse detection |
+| [`kubernetes-hpa-scaling-demo/`](./kubernetes-hpa-scaling-demo) | [Kubernetes HPA Not Scaling Down](https://devsaas.dev/blog/kubernetes-hpa-not-scaling-down) | Reproducing and fixing the scale-down stabilization window issue |
 
 ## Running any example
 
@@ -38,7 +39,7 @@ Most "JWT tutorial" code online either skips revocation entirely or hand-waves t
 ## License
 
 MIT — use it, fork it, adapt it to your own stack.
-| [`kubernetes-hpa-scaling-demo/`](./kubernetes-hpa-scaling-demo) | [Kubernetes HPA Not Scaling Down](https://devsaas.dev/blog/kubernetes-hpa-not-scaling-down) | Reproducing and fixing the scale-down stabilization window issue |
+
 
 ## More
 
